@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Baixa ae</title>
+</head>
+<body>
+      <div class="card">
+        <h3>tutorial bunitin</h3>
+        <div class="overlay"></div>
+        <div class="video">
+        <iframe src="https://www.youtube.com/embed/CgIQ8niv0ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h3>links úteis</h3>
+        <div class="botoes">
+          <a href="https://tlauncher.org/installer" target="_blank" >Baixar Minecraft</a>
+          
+          <a href="https://drive.google.com/drive/folders/14AZzYXDw7U091gpCTo0x3p8FWJL0aRTb?usp=sharing" target="_blank" >Baixar Mods</a>
+          
+          <a href="#" onclick="copyToClipboard('neptune.ca.freemcserver.net:25984')">Copiar Servidor</a>
+        </div>
+
+        <script>
+        function copyToClipboard(text) {
+          // create a temporary textarea element to hold the text to copy
+          const textarea = document.createElement('textarea');
+          textarea.value = text;
+        
+          // append the textarea to the document
+          document.body.appendChild(textarea);
+        
+          // select the text within the textarea
+          textarea.select();
+        
+          // copy the text to the clipboard
+          document.execCommand('copy');
+        
+          // remove the textarea from the document
+          document.body.removeChild(textarea);
+
+          alert('copiado irmao')
+        }
+        </script>
+        
+      </div>
+</body>
+</html>
